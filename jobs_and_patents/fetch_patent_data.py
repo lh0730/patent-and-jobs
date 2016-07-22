@@ -7,7 +7,7 @@ if sys.getdefaultencoding() != default_encoding:
     reload(sys)
     sys.setdefaultencoding(default_encoding)
 
-client = pymongo.MongoClient('183.174.228.38')
+client = pymongo.MongoClient('183.174.xxx.xx')
 db = client.patentDBs
 collection = db.patents.find()
 for item in collection:
