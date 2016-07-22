@@ -1,6 +1,6 @@
 import pymongo
 
-client = pymongo.MongoClient('183.174.228.38')
+client = pymongo.MongoClient('183.174.xxx.xx')
 db = client.Zhaopin
 collection = db.ObjJobs
 text = collection.find()
